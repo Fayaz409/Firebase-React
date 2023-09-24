@@ -1,0 +1,64 @@
+.auth{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-1{
+    width: 50vh;
+    margin: 5px;
+    border-radius: 7px;
+    height: 30px;
+}
+.input-2{
+    width: 50vh;
+    margin: 5px;
+    border-radius: 7px;
+    height: 30px;
+}
+
+.btn{
+    /* background-color: rgb(59, 59, 202); */
+    color: white;
+    border-radius: 10px;
+    transition: .6s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    height: 30px;
+}
+.btn-1{
+    background-color: rgb(59, 59, 202);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    transition: .6s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+    height: 30px;
+}
+
+.b1{
+    margin: 6px;
+
+}
+
+
+.btn-1:hover{
+    background-color: rgb(34, 34, 179);
+    transform:scale(1.02) ;
+}
+
+label{
+    font-size: large;
+    font-weight: bold;
+}
